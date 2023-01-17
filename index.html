@@ -13,23 +13,29 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="uk-navbar-container" uk-navbar>
-        <div class="uk-navbar-left">
+    <div class="uk-background-secondary">
+        <nav  uk-navbar>
+            <div class="uk-navbar-left" style="margin-left: 10px">
             <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="" uk-icon="icon: cloud-upload; ratio: 2"></a></li>
-                <li><a href="#">Holiday Hideouts</a></li>
-                <li>
-                    <div class="uk-navbar-item">
-                        <form action="javascript:void(0)">
-                            <input class="uk-input uk-form-width-small" type="text" placeholder="Search" aria-label="Input">
-                            <button class="uk-button uk-button-default"><span uk-icon="search"></span> </button>
-                        </form>
-                    </div>
-                </li>
-                <li class=".uk-navbar-right	"><a href="login.html"><button class="uk-button uk-button-primary">Login</button></a></li>
+                <li class="uk-active"><a href="" class="uk-text-primary" uk-icon="icon: cloud-upload; ratio: 2"></a></li>
+                <li><a href="#" class="uk-text-primary">Holiday Hideouts</a></li>
             </ul>
-        </div>
-    </nav>
+            </div>
+            <div class="uk-navbar-right" style="margin-right: 10px">
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <div class="uk-navbar-item">
+                            <form action="javascript:void(0)">
+                                <input class="uk-input uk-form-width-small" type="text" placeholder="Search" aria-label="Input">
+                                <button class="uk-button uk-button-primary"><span uk-icon="search"></span> </button>
+                            </form>
+                        </div>
+                    </li>
+                    <li><a href="login.html"><button class="uk-button uk-button-primary" >Login</button></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <div class="uk-child-width-expand@s" uk-grid>
         <div class="uk-grid-item-match">
             <div class="uk-card uk-card-default uk-card-body">
@@ -94,7 +100,7 @@
     </div>
    <div class="uk-panel"><br><br><br><a class=".uk-align-center" href= "recommendations.html" ><button class="uk-button uk-button-primary">Recommendations</button></a></div>
    <hr>
-   <centre>
+   <div style="background-color: lightgray">
        <a href="contact.html">Contact Information</a> 
        <br> 
        <a href="contact.html">Privacy Information</a> 
@@ -107,7 +113,7 @@
        <br>
        <a href="https://myspace.com/">MySpace</a>
        <br>
-       </centre>
+    </div>
    </hr>
 </body>
 </html>
