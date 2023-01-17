@@ -10,26 +10,32 @@
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.21/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.21/dist/js/uikit-icons.min.js"></script>
-    <title>Document</title>
+    <title>Holiday Hideouts</title>
 </head>
 <body>
-    <nav class="uk-navbar-container" uk-navbar>
-        <div class="uk-navbar-left">
+    <div class="uk-background-secondary">
+        <nav  uk-navbar>
+            <div class="uk-navbar-left" style="margin-left: 10px">
             <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="" uk-icon="icon: cloud-upload; ratio: 2"></a></li>
-                <li><a href="#">Holiday Hideouts</a></li>
-                <li>
-                    <div class="uk-navbar-item">
-                        <form action="javascript:void(0)">
-                            <input class="uk-input uk-form-width-small" type="text" placeholder="Search" aria-label="Input">
-                            <button class="uk-button uk-button-default"><span uk-icon="search"></span> </button>
-                        </form>
-                    </div>
-                </li>
-                <li class=".uk-navbar-right	"><a href="login.html"><button class="uk-button uk-button-primary">Login</button></a></li>
+                <li class="uk-active"><a href="" class="uk-text-primary" uk-icon="icon: cloud-upload; ratio: 2"></a></li>
+                <li><a href="#" class="uk-text-primary">Holiday Hideouts</a></li>
             </ul>
-        </div>
-    </nav>
+            </div>
+            <div class="uk-navbar-right" style="margin-right: 10px">
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <div class="uk-navbar-item">
+                            <form action="javascript:void(0)">
+                                <input class="uk-input uk-form-width-small" type="text" placeholder="Search" aria-label="Input">
+                                <button class="uk-button uk-button-primary"><span uk-icon="search"></span> </button>
+                            </form>
+                        </div>
+                    </li>
+                    <li><a href="login.html"><button class="uk-button uk-button-primary" >Login</button></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <div class="uk-child-width-expand@s" uk-grid>
         <div class="uk-grid-item-match">
             <div class="uk-card uk-card-default uk-card-body">
@@ -39,26 +45,26 @@
                 </p>
             </div>
          </div>
-        <div>
+        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-column">
             <p>
-                Our website offers the You! to have a look at the best hotels to stay at in 2023!<br>
-                We offer eclusive prices and make sure that You! will the get the best price possible.<br>
+                Our website invites you to have a look at the best hotels to stay at in 2023!<br>
+                We offer exclusive prices and make sure that you will the get the best price possible.<br>
                 On the left we present a video showcasing the most Luxurious hotels on the planet.<br>
                 But we also showcase many more hotels including mid range price and low price hotels.<br>
-                We really put care for people to book their dream hotel and have great holiday we are here to help You! make the BIG decision.
+                We put in alot of care for people looking to book their dream hotel and have great holiday. We are here to help you make the BIG decision.
                 Below you will be able to find more hotels we showcase on our website to give you an idea of what you can book with us at the best price.
             </p>
         </div>
     </div>
     <div class="uk-child-width-expand@s" uk-grid>
         <div class="uk-grid-item-match">
-            <div class="uk-card uk-card-default uk-card-body">
+            <div class="uk-card uk-card-default uk-card-body uk-flex uk-flex-center uk-flex-middle uk-flex-column">
                 <h3>Best Bookings Possible.</h3>
                 <p>
-                    As You! saw we offer best prices and best Hotels in the world at different price range.<br>
-                    we want You! and your family to enjoy the best holiday possible so we search for the best Hotles for You!
-                    This save you time and effort spend phoning or emailing different hotels about the room and price.
-                    We simply do it for You! Please sit down relax and book a hotle with one click.
+                    As you saw we offer best prices and best Hotels in the world at different price range.<br>
+                    we want you and your family to enjoy the best holiday possible so us at Holiday Hideouts have found the best hotels for you!
+                    This saves you time and effort spent phoning or emailing different hotels about the room and price.
+                    We simply do it for you Please sit down relax and book a hotle with one click.
                     On the right there are some more Hotels you can view to make your decision which one it will be!
                 </p>
             </div>
@@ -92,22 +98,33 @@
             </p>
         </div>
     </div>
-   <div class="uk-panel"><br><br><br><a class=".uk-align-center" href= "recommendations.html" ><button class="uk-button uk-button-primary">Recommendations</button></a></div>
+   <div class="uk-flex uk-flex-center uk-flex-middle">
+        <br><br><br>
+        <a href= "recommendations.html" >
+            <button class="uk-button uk-button-primary">Recommendations</button>
+        </a>
+    </div>
    <hr>
-   <centre>
-       <a href="contact.html">Contact Information</a> 
-       <br> 
-       <a href="contact.html">Privacy Information</a> 
-       <br>
-       <a href="contact.html">Terms & Conditions</a> 
-       <h5>Copyright&copy;  2023-2023</h5>   
-       <A href="https://www.facebook.com/">Facebook</a> 
-       <br>
-       <a href="https://twitter.com/">Twitter </a> 
-       <br>
-       <a href="https://myspace.com/">MySpace</a>
-       <br>
-       </centre>
-   </hr>
+   <div style="background-color: lightgray" class="uk-flex uk-flex-center" >
+    <div>
+        <div style="text-align: center">Copyright&copy;  2023-2023</h5>
+    </div>
+    <div class="uk-grid-medium" uk-grid>
+        <div>
+            <a href="contact.html">Contact Information</a>
+            <br>
+            <a href="contact.html">Privacy Information</a>
+            <br>
+            <a href="contact.html">Terms & Conditions</a>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <br>
+            <a href="https://twitter.com/">Twitter </a>
+            <br>
+            <a href="https://myspace.com/">MySpace</a>
+        </div>
+    </div>
+    </div>
 </body>
 </html>
