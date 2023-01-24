@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.21/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.21/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.21/dist/js/uikit-icons.min.js"></script>
+    <title>Holiday Hideouts</title>
+</head>
+<body>
+    <div class="uk-background-secondary">
+        <nav  uk-navbar>
+            <div class="uk-navbar-left" style="margin-left: 10px">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="" class="uk-text-primary" uk-icon="icon: cloud-upload; ratio: 2"></a></li>
+                <li><a href="#" class="uk-text-primary">Holiday Hideouts</a></li>
+            </ul>
+            </div>
+            <div class="uk-navbar-right" style="margin-right: 10px">
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <div class="uk-navbar-item">
+                            <form action="javascript:void(0)">
+                                <input class="uk-input uk-form-width-small" type="text" placeholder="Search" aria-label="Input">
+                                <button class="uk-button uk-button-primary"><span uk-icon="search"></span> </button>
+                            </form>
+                        </div>
+                    </li>
+                    <li><a href="login.html"><button class="uk-button uk-button-primary" >Login</button></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="uk-container">
+        <div  class="uk-flex uk-flex-column">
+            <div class="uk-flex-center">
+            <!-- First div in flex -->
+            <div>
+                <div style="text-align:center">
+                    <h2>Contact Us</h2>
+                    <p>For any Further Information please leave us a Message Here</p>
+                </div>
+                <div class="uk-flex-center">
+                    <img src="https://images7.alphacoders.com/379/thumb-1920-379773.jpg" style="width: 25% uk-flex-center">
+                </div>
+            </div>
+            <!-- Second div in flex -->
+            <div class="uk-flex uk-align-center uk-flex-center">
+                <div>
+
+                    <form action="action_page.php">
+                        
+                        <label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+                        
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+                        
+                        <label for="country">Contact Options</label><br>
+                        <select id="country" name="country"><br>
+                            <option value="Email">Email</option>
+                            <option value="Telephone">Telephone</option>
+                        </select><br>
+                        <label for="contact chosen">Contact Chosen</label><br>
+                        <input type="text" id="emailortelephone" name="emailortelephone" placeholder="Email or Telephone...."><br>
+                        
+                        <label for="messagecontent">Message Content</label><br>
+                        <textarea id="questions" name="questions" placeholder="Please let us know about any questions you may have.." style="height:150px"></textarea>
+                        
+                        <br><input type="submit" value="Submit"><br>
+                        <p>We will reply as soon as possible</p>
+                        <h2>Thank You</h2>
+                        
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+   <div class="uk-flex uk-flex-center uk-flex-middle">
+        <br><br><br>
+        <a href= "recommendations.html" >
+            <button class="uk-button uk-button-primary">Recommendations</button>
+        </a>
+    </div>
+   <hr>
+   <div style="background-color: lightgray" class="uk-flex uk-flex-center" >
+    <div>
+        <div style="text-align: center">Copyright&copy;  2023-2023</h5>
+    </div>
+    <div class="uk-grid-medium" uk-grid>
+        <div>
+            <a href="contact.html">Contact Information</a>
+            <br>
+            <a href="contact.html">Privacy Information</a>
+            <br>
+            <a href="contact.html">Terms & Conditions</a>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <br>
+            <a href="https://twitter.com/">Twitter </a>
+            <br>
+            <a href="https://myspace.com/">MySpace</a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
